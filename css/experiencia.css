@@ -1,0 +1,11 @@
+.experiencia {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 150px;
+}
+.experiencia-titulo {
+  color: #15c2a6;
+}
