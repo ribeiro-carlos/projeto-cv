@@ -5,7 +5,6 @@ body {
   color: #2b363e;
   box-sizing: border-box;
   background: #ffefdc;
-  height: 3000px;
 }
 h1,
 h2,
@@ -21,6 +20,7 @@ ul {
 }
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 .subtitulo {
@@ -29,4 +29,11 @@ img {
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
+}
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }
